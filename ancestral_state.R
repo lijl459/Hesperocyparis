@@ -7,7 +7,6 @@ set.seed(123)
 
 #map growth rate
 #median
-setwd("H:\\毕业生\\贾诗雨\\manuscript\\cladistics\\R1\\analysis\\ancetral_state")
 getwd()
 tree = read.tree("16sp_time_tree.tre")
 plot(tree, cex = 0.8)
@@ -286,5 +285,6 @@ plot_contmap_jpg(AI, "AI",
                  "Ancestral reconstruction of aridity index (AI)",
                  "AI (index)", "AI_contMap.jpg",
                  pal = pal_rev)
+
 
 
