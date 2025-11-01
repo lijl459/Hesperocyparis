@@ -5,12 +5,6 @@ library(RColorBrewer)
 library(viridis)
 library(scales)
 
-
-setwd("H:\\毕业生\\贾诗雨\\manuscript\\cladistics\\R1\\analysis\\abba")
-
-
-
-
 # 读取物种顺序文件和数据文件
 species_order_file <- "all.namelist.txt"  # 包含物种顺序的文件
 input_file <- "Hes.indABBA.avg.txt"  # 包含z_value和gamma的数据文件
@@ -116,4 +110,5 @@ p2
   
 ggsave("abba.z.pdf", p1, width = 10, height = 8, dpi = 300)
 ggsave("abba.d.pdf", p2, width = 10, height = 8, dpi = 300)
+
 
